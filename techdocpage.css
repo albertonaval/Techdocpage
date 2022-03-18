@@ -1,4 +1,22 @@
 body {
   background-color: black;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+header,
+h3,
+h4 {
+  color: orangered;
+  font-size: 2rem;
+  font-family: "Roboto Slab", serif;
+}
+li {
+  list-style: none;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
 }
